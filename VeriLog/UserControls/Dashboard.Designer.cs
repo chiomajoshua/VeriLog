@@ -58,12 +58,6 @@
             this.bunifuCustomLabel10 = new Bunifu.Framework.UI.BunifuCustomLabel();
             this.panel14 = new System.Windows.Forms.Panel();
             this.bunifuCustomDataGrid1 = new Bunifu.Framework.UI.BunifuCustomDataGrid();
-            this.Column1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Column2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Column3 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Column5 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Column4 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Column6 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.bunifuCustomLabel11 = new Bunifu.Framework.UI.BunifuCustomLabel();
             this.bunifuCustomLabel12 = new Bunifu.Framework.UI.BunifuCustomLabel();
             this.panel15 = new System.Windows.Forms.Panel();
@@ -88,6 +82,11 @@
             this.pictureBox5 = new System.Windows.Forms.PictureBox();
             this.bunifuImageButton1 = new Bunifu.Framework.UI.BunifuImageButton();
             this.bunifuFlatButton1 = new Bunifu.Framework.UI.BunifuFlatButton();
+            this.Column1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column3 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column5 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column6 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.flowLayoutPanel1.SuspendLayout();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
@@ -438,57 +437,20 @@
             this.Column2,
             this.Column3,
             this.Column5,
-            this.Column4,
             this.Column6});
             this.bunifuCustomDataGrid1.DoubleBuffered = true;
             this.bunifuCustomDataGrid1.EnableHeadersVisualStyles = false;
             this.bunifuCustomDataGrid1.GridColor = System.Drawing.Color.White;
             this.bunifuCustomDataGrid1.HeaderBgColor = System.Drawing.Color.FromArgb(((int)(((byte)(253)))), ((int)(((byte)(250)))), ((int)(((byte)(254)))));
             this.bunifuCustomDataGrid1.HeaderForeColor = System.Drawing.Color.DimGray;
-            this.bunifuCustomDataGrid1.Location = new System.Drawing.Point(44, 31);
+            this.bunifuCustomDataGrid1.Location = new System.Drawing.Point(33, 31);
             this.bunifuCustomDataGrid1.Name = "bunifuCustomDataGrid1";
             this.bunifuCustomDataGrid1.ReadOnly = true;
             this.bunifuCustomDataGrid1.RowHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
             this.bunifuCustomDataGrid1.RowTemplate.Height = 24;
             this.bunifuCustomDataGrid1.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
-            this.bunifuCustomDataGrid1.Size = new System.Drawing.Size(683, 373);
+            this.bunifuCustomDataGrid1.Size = new System.Drawing.Size(704, 373);
             this.bunifuCustomDataGrid1.TabIndex = 10;
-            // 
-            // Column1
-            // 
-            this.Column1.HeaderText = "Exam Name";
-            this.Column1.Name = "Column1";
-            this.Column1.ReadOnly = true;
-            // 
-            // Column2
-            // 
-            this.Column2.HeaderText = "Exam Time";
-            this.Column2.Name = "Column2";
-            this.Column2.ReadOnly = true;
-            // 
-            // Column3
-            // 
-            this.Column3.HeaderText = "Exam Level/Hall";
-            this.Column3.Name = "Column3";
-            this.Column3.ReadOnly = true;
-            // 
-            // Column5
-            // 
-            this.Column5.HeaderText = "Department";
-            this.Column5.Name = "Column5";
-            this.Column5.ReadOnly = true;
-            // 
-            // Column4
-            // 
-            this.Column4.HeaderText = "College";
-            this.Column4.Name = "Column4";
-            this.Column4.ReadOnly = true;
-            // 
-            // Column6
-            // 
-            this.Column6.HeaderText = "Status";
-            this.Column6.Name = "Column6";
-            this.Column6.ReadOnly = true;
             // 
             // bunifuCustomLabel11
             // 
@@ -728,6 +690,36 @@
             this.bunifuFlatButton1.Textcolor = System.Drawing.Color.White;
             this.bunifuFlatButton1.TextFont = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             // 
+            // Column1
+            // 
+            this.Column1.HeaderText = "Exam Name";
+            this.Column1.Name = "Column1";
+            this.Column1.ReadOnly = true;
+            // 
+            // Column2
+            // 
+            this.Column2.HeaderText = "Exam Time";
+            this.Column2.Name = "Column2";
+            this.Column2.ReadOnly = true;
+            // 
+            // Column3
+            // 
+            this.Column3.HeaderText = "Exam Level/Hall";
+            this.Column3.Name = "Column3";
+            this.Column3.ReadOnly = true;
+            // 
+            // Column5
+            // 
+            this.Column5.HeaderText = "College/Dept.";
+            this.Column5.Name = "Column5";
+            this.Column5.ReadOnly = true;
+            // 
+            // Column6
+            // 
+            this.Column6.HeaderText = "Status";
+            this.Column6.Name = "Column6";
+            this.Column6.ReadOnly = true;
+            // 
             // Dashboard
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -813,12 +805,6 @@
         private Bunifu.Framework.UI.BunifuCustomLabel bunifuCustomLabel10;
         private Bunifu.DataViz.BunifuDataViz bunifuDataViz1;
         private System.Windows.Forms.Timer timer1;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Column1;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Column2;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Column3;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Column5;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Column4;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Column6;
         private Bunifu.Framework.UI.BunifuElipse bunifuElipse1;
         private Bunifu.Framework.UI.BunifuElipse bunifuElipse2;
         private Bunifu.Framework.UI.BunifuElipse bunifuElipse3;
@@ -834,5 +820,10 @@
         private System.Windows.Forms.Panel panel18;
         private System.Windows.Forms.Panel panel19;
         private Bunifu.Framework.UI.BunifuCustomLabel bunifuCustomLabel13;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Column1;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Column2;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Column3;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Column5;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Column6;
     }
 }
